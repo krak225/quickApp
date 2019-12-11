@@ -1,0 +1,49 @@
+.ddsmoothmenu{
+font:bold  12px helvetica;
+background: #d9cf7c; /*background of menu bar (default state)*/
+width: 100%;
+}
+
+.ddsmoothmenu ul{
+z-index:100;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+text-align:center;
+width:114.27px;
+position: relative;
+display: inline;
+float: left;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+display: block;
+background:  url('../images/item.gif') center repeat-x; /*background of menu items (default state)*/
+color: white;
+padding: 8px 10px;
+border-right: 1px solid #edbd71;
+color: #2d2b2b;
+text-decoration: none;
+}
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
+color: white;
+}
+
+.ddsmoothmenu ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	background:#7d3708 url('../images/item_selected.gif') center repeat-x;
+}
+
+.ddsmoothmenu ul li a:hover{
+background: #7d3708 url('../images/item_hover.gif') bottom repeat-x; /*background of menu items during onmouseover (hover state)*/
+color: white;
+}

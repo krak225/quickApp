@@ -1,0 +1,52 @@
+/**/
+
+.default-info {
+	color:#000000;
+	background-color:#f0f0ff;
+	border:1px solid #5797f3;
+	margin:1px;
+	padding:4px 4px 4px 10px;
+}
+
+.succes {
+	color:#000000;
+	background-color:#f0fff0;
+	border:1px solid #00ff00;
+	margin:1px;
+	padding:4px 4px 4px 10px;
+}
+
+.echec,.erreur {
+	color:#000000;
+	background-color:#ffeeee;
+	border:1px solid #ff0000;
+	margin:1px;
+	padding:4px 4px 4px 10px;
+}
+.erreur{
+	color:#f00;display:none;
+}
+/*les formulaires*/
+.btn, .btn_valider,.btn_annuler{
+	border:1px solid #eee;
+	background:url('');
+	text-align:center;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	cursor:pointer;
+	padding:5px;
+}	
+
+.btn_valider:hover{
+	color:orange;
+}
+.btn_annuler:hover{
+	color:red;
+}
+
+
+.champ{
+	padding:5px;
+	border:1px solid #eee;
+}

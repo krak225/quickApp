@@ -1,0 +1,39 @@
+/*style pour les formulaire*/
+/*général*/
+input[type="text"],input[type="password"],input[type="file"], select, textarea{
+	border:1px solid #ddd;
+	margin:1px;
+}
+
+textarea{
+	padding:7px;
+}
+
+
+fieldset{
+	border:1px dashed #eee;
+}
+
+label{
+	min-width:150px;
+	display:inline-block;
+}
+
+
+/*spécifique*/
+.editeMsg #titre{
+	width:700px;
+}
+
+.editeMsg #objet{
+	width:700px;
+}
+
+.editeMsg #rubrique{
+	width:700px;
+}
+
+.editeMsg #detail{
+	width:700px;
+	height:350px;
+}

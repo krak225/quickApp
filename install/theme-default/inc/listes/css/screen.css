@@ -1,0 +1,24 @@
+#product-table	{	width:100%;border-collapse:collapse;	}
+#product-table	td a	{	color: #393939;	}
+#product-table	td a:hover	{	text-decoration: none;	}
+#product-table	th	{	height: 30px;	text-align: left;	}
+	#product-table	td	{	height: ;	text-align: left;	}
+	#product-table	.minwidth-1	{	min-width: 222px;	}
+	#product-table	.minwidth-2	{	min-width:100px;	}		
+#product-table	.minwidth-4	{	min-width: 80px;	}	
+#product-table	.w50	{	width: 50px;	}	
+#product-table	.w60	{	width: 60px;	}	
+#product-table	.w70	{	width: 70px;	}	
+#product-table	.w80	{	width: 80px;	}	
+#product-table	.w80	{	width: 90px;	}	
+#product-table	.w100	{	width: 100px;	}	
+#product-table	.w110	{	width: 110px;	}	
+#product-table	.w200	{	width: 200px;	}	
+
+#product-table td	{	border: 0.5px solid #d2d2d2;	padding:5px 0 5px 5px;	vertical-align:middle;	}
+#product-table tr.alternate-row	{	background: #ececec;	}
+td.checkbox-width	{	}
+.table-header-check	{	background: url(../images/table/table_header_repeat.jpg) repeat-x;
+	border: none;	min-width: 30px;	width: 30px;	}
+	.table-header-options	{	background: url(../images/table/table_header_options.jpg) repeat-x;	border: none;	min-width: px;	padding: 0px 0 0 0;	width: px;	}
+	.table-header-repeat	{	background: url(../images/table/table_header_repeat.jpg) repeat-x;	border: none;	font-size: 0px;	line-height: 0;	padding: 0px 0 0 0;	}.table-header-options a, .table-header-repeat a	{	background: url(../images/table/table_sort_arrow.gif) right no-repeat;	color: #fff;	font-family: Tahoma;	font-size: 13px;	font-weight: bold;	line-height: 14px;	margin: 0 0 0 10px;	padding: 0 10px 0 0;	}		.table-header-options a:hover, .table-header-repeat a:hover	{			}	th.line-left	{	border-left: 1px solid #373737;	}#product-table	tr.activity-blue	{	background: #e3eceb;	}		#toggle-all {		display: block;		width: 17px;		height:17px;		cursor: pointer;		background: url(../images/shared/checkbox.gif) 0 -17px;	}		#toggle-all.toggle-checked {		display: block;		width: 17px;		height:17px;		background: url(../images/shared/checkbox.gif) 0 0;	}		.chk {		display: block;		width: 17px;		height:17px;		background: url(../images/shared/checkbox.gif) 0 -17px;	}				.tr_action{border:1px solid eee;}		.th{background:url('');}	

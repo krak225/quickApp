@@ -1,0 +1,134 @@
+
+/* Navigation
+---------------------------------------------------------- */
+nav {background-color:#000; color:#eee; font-size:12px; padding:0 20px; z-index:9999; position:relative;}
+
+nav ul li {text-align:center;}
+nav ul li a {color:#fff; cursor:pointer; line-height:30px; margin:0; padding:9px 10px 5px 10px; text-decoration:none;}
+
+
+nav ul ul a {background-color:#000; line-height:15px; font-size:11px; padding:5px 10px; width:180px; text-align:left;}
+
+/*
+nav .selected > a {background:#286b9f; color:#fff;}
+nav .selected > a:hover {text-decoration:none;}
+*/
+
+nav {
+  padding:0px;
+	zoom: 1;
+	margin: 0;
+	width: 100%;
+	color: #fff;
+}
+nav:before, nav:after {
+	display: table;
+	content: "";
+	zoom: 1;
+}
+nav:after {
+	clear: both;
+}
+nav ul {
+  float: left;
+  zoom: 1;
+  width: auto;
+  background: #000;
+  z-index: 100;
+  
+}
+nav ul:before, nav ul:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+nav ul:after {
+  clear: both;
+}
+nav ul li {
+  float: left;
+  position: relative;
+  outline: none;
+  text-transform:uppercase;
+  min-width:76.33px;
+}
+nav ul li:hover{
+	background:black;
+}
+nav ul li.hasChildren a span {
+	
+  display: block;
+}
+nav ul li.hasChildren a:hover span, nav ul li.hasChildren.hover a span {
+  background-position: right -50px;
+}
+nav ul a {
+  outline: none;
+  float: left;
+  display: block;
+  zoom: 1;
+}
+nav a:hover {background-color:#286b9f; color:#fff; text-decoration:none;}
+nav ul a:link, nav ul a:visited,
+#sub-nav ul a:link, #sub-nav ul a:visited {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  outline: none;
+}
+nav ul a:hover, nav ul a:active {
+  background-color:#286b9f;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  outline: none;
+}
+
+nav ul a.active {
+  background-color:#286b9f;
+}
+
+nav ul a:active {
+
+}
+
+nav li ul {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: none !important;
+  z-index: 1000;
+  zoom: 1;
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
+nav li ul:before, nav li ul:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+nav li ul:after {
+  clear: both;
+}
+nav li ul a {
+  float: none;
+}
+nav li ul li {
+  display: block;
+}
+nav li ul li ul {
+  display: none;
+  left: 100% !important;
+  top: 0;
+}
+.rgba nav li ul li ul {
+  top: -11px;
+}

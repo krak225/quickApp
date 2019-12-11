@@ -1,0 +1,72 @@
+/**/
+label{
+	display:inline-block;
+    width: 150px;
+}
+
+input[type="text"],input[type="password"],input[type="file"], select, textarea{
+	border:1px solid #eee;
+	margin:2px;
+}
+
+.default-info {
+	color:#000000;
+	background-color:#f0f0ff;
+	border:1px solid #5797f3;
+	margin:1px;
+	padding:4px 4px 4px 10px;
+}
+
+.succes {
+	color:#000000;
+	background-color:#f0fff0;
+	border:1px solid #00ff00;
+	margin:1px;
+	padding:4px 4px 4px 10px;
+}
+
+.echec {
+	color:#000000;
+	background-color:#ffeeee;
+	border:1px solid #ff0000;
+	margin:1px;
+	padding:4px 4px 4px 10px;
+}
+.erreur{
+	color:#f00;display:;
+}
+/*les formulaires*/
+.btn, .btn_valider,.btn_annuler{
+	border:1px solid #eee;
+	background:url('');
+	text-align:center;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	cursor:pointer;
+	padding:5px;
+}	
+
+.btn_valider:hover{
+	color:orange;
+}
+.btn_annuler:hover{
+	color:red;
+}
+
+
+.champ{
+	padding:5px;
+	border:1px solid #eee;
+	width:300px;
+	margin:2px;
+}
+
+
+#form-search{
+	display:none;
+}
+
+#form-search .champ{
+	width:150px;
+}

@@ -1,0 +1,15 @@
+.center {
+	margin:auto;
+}
+
+.centerText {
+	text-align:center;
+}
+
+/* ------------------------------ liens */
+#jqtab{}
+#jqtab a { color:#baee00; text-decoration:none; }
+#jqtab a:link { color:#baee00; }
+#jqtab a:visited { color:#baee00; }
+#jqtab a:hover { color:#baee00; text-decoration:underline; }
+#jqtab a:active { color:#baee00; }
